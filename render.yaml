@@ -2,7 +2,6 @@ services:
   - type: web
     name: nightscout
     env: node
-    region: oregon # optional (defaults to oregon. Other regions: ohio, frankfurt, singapore)
     plan: free # optional (defaults to free - this a FREE PLAN, maybe... https://render.com/pricing)
     buildCommand: npm install
     startCommand: npm start
